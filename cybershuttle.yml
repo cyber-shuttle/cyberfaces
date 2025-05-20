@@ -1,0 +1,27 @@
+project:
+  name: "Cyberfaces"
+  description: "FAIR Science in Water Resources"
+  homepage: https://github.com/cyber-shuttle/cyberfaces
+  authors:
+    - pjaya001@odu.edu
+  tags:
+    - Cyberfaces
+
+workspace:
+  resources:
+    min_cpu: 4
+    min_mem: 4096
+    min_gpu: 0
+    gpu_mem: 0
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.11
+    - pip
+  pip:
+    - libpysal
+    - esda
+    - contextily
