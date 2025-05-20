@@ -19,9 +19,50 @@ workspace:
 additional_dependencies:
   modules: []
   conda:
-    - python=3.11
+    - python=3.10
     - pip
-  pip:
+    - numba=0.56.3
+    - gdal
+    - fiona
+    - rasterio
+    - ipyleaflet
+    - scipy
+    - bsddb3
+    - qgis
+    - scikit-learn
     - libpysal
     - esda
     - contextily
+    - wget
+    - utm
+    - matplotlib
+    - geopandas
+    - folium
+    - earthpy
+    - patool
+    - cdsapi
+    - geemap
+    - gdown
+    - geojson
+    - pyarrow
+    - xarray
+    - pooch
+    - zarr
+    - cython
+    - dask
+    - fsspec
+    - gcsfs
+    - intake
+    - intake-esm
+    - cmaps
+    - cartopy
+    - regionmask
+    - pynhd
+    - progressbar
+    - hydrofunctions
+    - s3fs
+    - pywbt
+    - cfgrib
+  pip:
+    - matplotlib_scalebar
+    - cdo-api-py
